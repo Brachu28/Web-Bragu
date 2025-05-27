@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Bragu</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img width="40%" height="800" src="./imagenes/LOGO.jpg" alt="Logo Bragu">
+        </div>
+        <h1>Resiliencia hecha estilo</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Conoce nuestros productos urbanos</h2>
+            <video width="800" height="800" controls>
+                <source src="./imagenes/Remeras/videoCream.MOV" type="video/mp4">
+            </video>
+
+        </section>
+
+        <section id="productos">
+            <h2>Productos</h2>
+            <div class="productos-container">
+                <div class="producto">
+                    <figure>
+                        <a href="./remeras.html"> <img width="100%" src="./imagenes/REMERAS/OverCream.jpg"
+                                alt="Remera Oversize Cream"></a>
+                        <figcaption>Remeras</figcaption>
+                    </figure>
+                </div>
+                <div class="producto">
+                    <figure>
+                        <a href="./gorras.html"><img width="100%" src="./imagenes/Gorras/champion2.jpg"
+                                alt="Gorras champion"></a>
+                        <figcaption>Gorras</figcaption>
+                    </figure>
+                </div>
+                <div class="producto">
+                    <figure>
+                        <a href="./combos.html"><img width="100%" src="./imagenes/Combos/combo1.jpg"
+                                alt="Remera drink y gorra NY"></a>
+                        <figcaption>Combos</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/mjkwqqpg" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <label for="correo">Correo Electronico</label>
+                <input type="email" name="correo" id="correo" required>
+
+                <label for="tema">Motivo</label>
+                <select name="tema" id="tema">
+                    <option value="Consulta">Consulta</option>
+                    <option value="Sugerencia">Sugerencia</option>
+                    <option value="Otro">Otro</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/_bragu/"><img width="30%" src="./Insta.png" alt="Logo IG"></a>
+            </li>
+            <li>
+                <a href="./index.html"><img width="15%" src="./imagenes/Bragu.png" alt="Logo Bragu"></a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@_bragu?_t=ZM-8wh404RWV5Z&_r=1"><img width="25%" src="./tiktok.png"
+                        alt="Logo tiktok"></a>
+            </li>
+
+        </ul>
+    </footer>
+
+</body>
+
+</html>
